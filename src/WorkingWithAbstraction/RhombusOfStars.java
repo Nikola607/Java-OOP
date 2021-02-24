@@ -2,7 +2,7 @@ package WorkingWithAbstraction;
 
 import java.util.Scanner;
 
-public class Rhombus0fStars {
+public class RhombusOfStars {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         int size = Integer.parseInt(scan.nextLine());
