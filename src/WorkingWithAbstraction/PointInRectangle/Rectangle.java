@@ -29,10 +29,10 @@ public class Rectangle {
 
     public boolean contains(Point point){
         boolean isHorizontal = getBottomLeft().getX() <= point.getX() &&
-                getTopRight().getX() <= point.getX();
+                getTopRight().getX() >= point.getX();
 
         boolean isVertical = getBottomLeft().getY() <= point.getY() &&
-                getTopRight().getY() <= point.getY();
+                getTopRight().getY() >= point.getY();
 
         return isHorizontal && isVertical;
     }
