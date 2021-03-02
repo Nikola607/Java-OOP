@@ -1,4 +1,4 @@
-package WorkingWithAbstraction.SortByNameAndAge;
+package Encapsulation.SortByNameAndAge;
 
 import java.util.ArrayList;
 import java.util.Collections;

@@ -1,6 +1,5 @@
-package WorkingWithAbstraction.SortByNameAndAge;
+package Encapsulation.SortByNameAndAge;
 
-import java.util.Collections;
 import java.util.List;
 
 public class Person {
