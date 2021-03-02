@@ -11,12 +11,6 @@ public class Box {
         this.setHeight(height);
     }
 
-    private void validation(String name, double parameter){
-        if(parameter <= 0){
-            throw new IllegalArgumentException(name + " cannot be zero or negative.");
-        }
-    }
-
     private void setHeight(double height) {
         if(height <= 0){
             throw new IllegalArgumentException("Height cannot be zero or negative.");
