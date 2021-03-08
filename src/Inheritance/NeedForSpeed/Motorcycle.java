@@ -1,4 +1,4 @@
-package NeedForSpeed;
+package Inheritance.NeedForSpeed;
 
 public class Motorcycle extends Vehicle{
     public Motorcycle(double fuel, int horsePower) {

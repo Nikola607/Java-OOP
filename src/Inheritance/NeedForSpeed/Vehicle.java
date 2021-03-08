@@ -1,4 +1,4 @@
-package NeedForSpeed;
+package Inheritance.NeedForSpeed;
 
 //	DEFAULT_FUEL_CONSUMPTION – final static double (constant)
 // 	fuelConsumption –double

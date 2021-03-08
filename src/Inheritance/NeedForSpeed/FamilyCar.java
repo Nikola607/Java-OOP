@@ -1,4 +1,4 @@
-package NeedForSpeed;
+package Inheritance.NeedForSpeed;
 
 public class FamilyCar extends Car{
     public FamilyCar(double fuel, int horsePower) {
