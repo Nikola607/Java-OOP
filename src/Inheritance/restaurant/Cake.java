@@ -1,4 +1,4 @@
-package restaurant;
+package Inheritance.restaurant;
 
 //   double CAKE_GRAMS = 250
 //   double CAKE_CALORIES = 1000

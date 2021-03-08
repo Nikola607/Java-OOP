@@ -1,4 +1,4 @@
-package restaurant;
+package Inheritance.restaurant;
 
 //	name – String
 //  price – BigDecimal

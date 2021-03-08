@@ -1,4 +1,4 @@
-package restaurant;
+package Inheritance.restaurant;
 
 //	double COFFEE_MILLILITERS = 50
 // 	BigDecimal COFFEE_PRICE = 3.50
