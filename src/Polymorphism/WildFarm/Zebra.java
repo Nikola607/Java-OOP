@@ -1,4 +1,4 @@
-package WildFarm;
+package Polymorphism.WildFarm;
 
 public class Zebra extends Mammal{
     public Zebra(String name, String type, double weight, String livingRegion) {

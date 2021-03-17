@@ -1,4 +1,4 @@
-package WildFarm;
+package Polymorphism.WildFarm;
 
 public class Tiger extends Felime{
     public Tiger(String name, String type, double weight, String livingRegion) {
