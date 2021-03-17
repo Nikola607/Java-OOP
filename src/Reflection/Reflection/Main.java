@@ -1,7 +1,5 @@
 package Reflection.Reflection;
 
-import Reflection.Reflection;
-
 import java.lang.reflect.InvocationTargetException;
 
 public class Main {
