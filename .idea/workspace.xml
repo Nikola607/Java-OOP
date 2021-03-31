@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a2c2cde9-e84a-4ae8-a7a7-82d500fb0341" name="Default Changelist" comment="Design Patterns-Singleton">
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Facade/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Facade/CarAddressBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Facade/CarBuilderFacade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Facade/CarInfoBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Facade/Main.java" afterDir="false" />
+    <list default="true" id="a2c2cde9-e84a-4ae8-a7a7-82d500fb0341" name="Default Changelist" comment="Design Patterns-Facade">
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/CommandPattern/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/CommandPattern/DecreaseProductPriceCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/CommandPattern/IncreaseProductPriceCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/CommandPattern/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/CommandPattern/ModifyPrice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/CommandPattern/Product.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/ExamPreparation/hell.zip" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/ExamPreparation/hell/Main.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/ExamPreparation/hell/entities/miscellaneous/HeroInventory.java" afterDir="false" />
@@ -71,7 +72,7 @@
       <recent name="hell.items" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (2)">
+  <component name="RunManager" selected="Application.Main (3)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DesignPatterns.Singleton.Main" />
       <module name="JavaOOP" />
@@ -91,6 +92,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="DesignPatterns.Facade.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DesignPatterns.CommandPattern.Main" />
+      <module name="JavaOOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DesignPatterns.CommandPattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,6 +138,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
@@ -147,7 +162,7 @@
       <workItem from="1617009359514" duration="101000" />
       <workItem from="1617010226737" duration="15000" />
       <workItem from="1617099612081" duration="6771000" />
-      <workItem from="1617184577112" duration="4848000" />
+      <workItem from="1617184577112" duration="8313000" />
     </task>
     <task id="LOCAL-00001" summary="Java-OOP">
       <created>1616972172189</created>
@@ -163,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617187623519</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Design Patterns-Facade">
+      <created>1617190116094</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1617190116094</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -188,6 +210,7 @@
     </ignored-roots>
     <MESSAGE value="Java-OOP" />
     <MESSAGE value="Design Patterns-Singleton" />
-    <option name="LAST_COMMIT_MESSAGE" value="Design Patterns-Singleton" />
+    <MESSAGE value="Design Patterns-Facade" />
+    <option name="LAST_COMMIT_MESSAGE" value="Design Patterns-Facade" />
   </component>
 </project>
