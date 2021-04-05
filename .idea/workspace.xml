@@ -4,27 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a2c2cde9-e84a-4ae8-a7a7-82d500fb0341" name="Default Changelist" comment="Exam-Preparation-ViceCity">
-      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/viceCity/repositories/interfaces/Repository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hell/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hell/entities/ManagerImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hell/entities/heroes/Assassin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hell/entities/heroes/Barbarian.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hell/entities/heroes/BaseHero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hell/entities/heroes/HeroComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hell/entities/heroes/Wizard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hell/entities/items/CommonItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hell/entities/items/Items.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hell/entities/items/RecipeItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hell/entities/miscellaneous/HeroInventory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hell/entities/miscellaneous/ItemCollection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hell/interfaces/Hero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hell/interfaces/InputReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hell/interfaces/Inventory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hell/interfaces/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hell/interfaces/Manager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hell/interfaces/OutputWriter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hell/interfaces/Recipe.java" afterDir="false" />
+    <list default="true" id="a2c2cde9-e84a-4ae8-a7a7-82d500fb0341" name="Default Changelist" comment="Exam-Preparation-H.E.L.L">
+      <change afterPath="$PROJECT_DIR$/src/cresla/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cresla/containers/ModuleContainer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cresla/interfaces/AbsorbingModule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cresla/interfaces/Container.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cresla/interfaces/EnergyModule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cresla/interfaces/Identifiable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cresla/interfaces/InputReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cresla/interfaces/Manager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cresla/interfaces/Module.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cresla/interfaces/OutputWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cresla/interfaces/Reactor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,7 +63,7 @@
       <recent name="hell.items" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DesignPatterns.CommandPattern.Main" />
       <module name="JavaOOP" />
@@ -151,22 +142,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (5)" />
         <item itemvalue="Application.Main (4)" />
@@ -194,7 +182,8 @@
       <workItem from="1617184577112" duration="9476000" />
       <workItem from="1617293079949" duration="3746000" />
       <workItem from="1617530428418" duration="16286000" />
-      <workItem from="1617564681835" duration="6582000" />
+      <workItem from="1617564681835" duration="7060000" />
+      <workItem from="1617617435580" duration="757000" />
     </task>
     <task id="LOCAL-00001" summary="Java-OOP">
       <created>1616972172189</created>
@@ -231,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617562519452</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Exam-Preparation-H.E.L.L">
+      <created>1617617117013</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1617617117013</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -259,6 +255,7 @@
     <MESSAGE value="Design Patterns-Facade" />
     <MESSAGE value="Design Patterns-CommandPattern" />
     <MESSAGE value="Exam-Preparation-ViceCity" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exam-Preparation-ViceCity" />
+    <MESSAGE value="Exam-Preparation-H.E.L.L" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exam-Preparation-H.E.L.L" />
   </component>
 </project>
