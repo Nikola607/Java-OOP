@@ -5,6 +5,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a2c2cde9-e84a-4ae8-a7a7-82d500fb0341" name="Default Changelist" comment="Exam-Preparation-H.E.L.L">
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/bakery/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/bakery/common/ExceptionMessages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/bakery/common/OutputMessages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/bakery/common/enums/BakedFoodType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/bakery/common/enums/Commands.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/bakery/common/enums/DrinkType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/bakery/common/enums/TableTYpe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/bakery/core/ControllerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/bakery/core/EngineImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/bakery/core/interfaces/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/bakery/core/interfaces/Engine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/bakery/entities/bakedFoods/BaseFood.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/bakery/entities/bakedFoods/Bread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/bakery/entities/bakedFoods/Cake.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/bakery/entities/bakedFoods/interfaces/BakedFood.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/bakery/entities/drinks/BaseDrink.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/bakery/entities/drinks/Tea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/bakery/entities/drinks/Water.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/bakery/entities/drinks/interfaces/Drink.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/bakery/entities/tables/BaseTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/bakery/entities/tables/InsideTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/bakery/entities/tables/OutsideTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/bakery/entities/tables/interfaces/Table.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/bakery/io/ConsoleReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/bakery/io/ConsoleWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/bakery/io/interfaces/InputReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/bakery/io/interfaces/OutputWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/bakery/repositories/DrinkRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/bakery/repositories/FoodRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/bakery/repositories/TableRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/bakery/repositories/interfaces/DrinkRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/bakery/repositories/interfaces/FoodRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/bakery/repositories/interfaces/Repository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/bakery/repositories/interfaces/TableRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bakery.zip" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/cresla/Main.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/cresla/containers/ModuleContainer.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/cresla/interfaces/AbsorbingModule.java" afterDir="false" />
@@ -34,12 +69,19 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="ProjectId" id="1qOxrgOxkOjVzVgvxW0RJx1MAGi" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -52,7 +94,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.other" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -63,7 +105,7 @@
       <recent name="hell.items" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Main (1)">
     <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DesignPatterns.CommandPattern.Main" />
       <module name="JavaOOP" />
@@ -117,6 +159,19 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ExamPreparation.bakery.Main" />
+      <module name="JavaOOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ExamPreparation.bakery.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ExamPreparation.hell.Main" />
       <module name="JavaOOP" />
       <extension name="coverage">
@@ -142,19 +197,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (5)" />
         <item itemvalue="Application.Main (4)" />
@@ -183,7 +241,10 @@
       <workItem from="1617293079949" duration="3746000" />
       <workItem from="1617530428418" duration="16286000" />
       <workItem from="1617564681835" duration="7060000" />
-      <workItem from="1617617435580" duration="757000" />
+      <workItem from="1617617435580" duration="868000" />
+      <workItem from="1617645027289" duration="604000" />
+      <workItem from="1617700160342" duration="90000" />
+      <workItem from="1617700313023" duration="14198000" />
     </task>
     <task id="LOCAL-00001" summary="Java-OOP">
       <created>1616972172189</created>
@@ -227,7 +288,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617617117013</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Exam-Preparation-H.E.L.L">
+      <created>1617618519560</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1617618519560</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
