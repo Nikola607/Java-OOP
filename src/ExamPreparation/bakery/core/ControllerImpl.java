@@ -109,8 +109,7 @@ public class ControllerImpl implements Controller {
 
     @Override
     public String orderFood(int tableNumber, String foodName) {
-        if (tableRepository.getByNumber(tableNumber) == null ||
-                !tableRepository.getByNumber(tableNumber).isReserved()) {
+        if (tableRepository.getByNumber(tableNumber) == null) {
             return String.format(WRONG_TABLE_NUMBER, tableNumber);
         }
 
@@ -124,8 +123,7 @@ public class ControllerImpl implements Controller {
 
     @Override
     public String orderDrink(int tableNumber, String drinkName, String drinkBrand) {
-        if (tableRepository.getByNumber(tableNumber) == null ||
-                !tableRepository.getByNumber(tableNumber).isReserved()) {
+        if (tableRepository.getByNumber(tableNumber) == null ) {
             return String.format(WRONG_TABLE_NUMBER, tableNumber);
         }
 
@@ -152,7 +150,7 @@ public class ControllerImpl implements Controller {
         StringBuilder sb = new StringBuilder();
 
         List<Table> freeTables = tableRepository.getAll().stream().
-                filter(e -> (!e.isReserved() && (e.getNumberOfPeople() == 0))).
+                filter(e -> (!e.isReserved())).
                 collect(Collectors.toList());
 
         freeTables.forEach(e ->

@@ -31,7 +31,7 @@ public abstract class BaseTable implements Table {
     }
 
     private void setCapacity(int capacity) {
-        if (capacity < 0) {
+        if (capacity <= 0) {
             throw new IllegalArgumentException(INVALID_TABLE_CAPACITY);
         }
         this.capacity = capacity;
